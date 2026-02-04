@@ -1,3 +1,4 @@
+
 # Plastic Object Classifier
 
 **Plastic Object Classifier** is a deep learning project that automatically identifies the type of plastic from an image and suggests which conveyor belt it should go to for sorting. It classifies images into three categories: `black`, `colorful`, and `transparent`. The project is designed to demonstrate practical applications of image classification using a small, self-made dataset of 100 images per class.
@@ -29,8 +30,24 @@ This workflow mimics a real-world sorting system, showing how machine learning c
 
 * `plastic_classifier.py` — Main script for training the model and predicting new images
 * `dataset/` — Training images organized into `black`, `colorful`, and `transparent` folders
-* `cube.jpg` — Example image for testing the prediction
 * `requirements.txt` — List of Python packages required
+
+---
+
+## Dataset Download
+
+The dataset is **hosted externally** due to file size. Download it from Google Drive:
+
+[Download Dataset](https://drive.google.com/drive/folders/16ubaEOjQUHwLbgHZBgxp8vp8o8jJJ3MB?usp=sharing)
+
+After downloading, **unzip the dataset** into a folder named `dataset` in the project root. The structure should look like this:
+
+```
+dataset/
+   black/
+   colorful/
+   transparent/
+```
 
 ---
 
@@ -38,7 +55,9 @@ This workflow mimics a real-world sorting system, showing how machine learning c
 
 Install the required Python packages using:
 
-`pip install -r requirements.txt`
+```
+pip install -r requirements.txt
+```
 
 Dependencies include: tensorflow, numpy, scikit-learn, Pillow
 
@@ -46,8 +65,13 @@ Dependencies include: tensorflow, numpy, scikit-learn, Pillow
 
 ## Usage
 
-1. Ensure the `dataset/` folder is in the project root and structured by class.
-2. Run the script: `python plastic_classifier.py`
+1. Download and unzip the dataset as explained above.
+2. Run the script:
+
+```
+python plastic_classifier.py
+```
+
 3. Provide a new image for prediction.
 4. The system outputs:
 
@@ -59,10 +83,7 @@ Dependencies include: tensorflow, numpy, scikit-learn, Pillow
 
 ## Notes
 
-* The dataset is small and self-made, so this project is intended for demonstration and learning purposes.
-* All file paths in the script are relative, so the project runs immediately after cloning.
+* The dataset is large (~488 MB) and hosted externally; the project is intended for demonstration and learning purposes.
+* All file paths in the script are relative, so the project runs immediately after setting up the dataset.
 * The model is simple but illustrates how image classification can be applied to practical problems like recycling automation.
-
-
-
 
