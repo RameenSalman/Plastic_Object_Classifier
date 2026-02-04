@@ -81,9 +81,4 @@ python plastic_classifier.py
 
 ---
 
-## Notes
-
-* The dataset is large (~488 MB) and hosted externally; the project is intended for demonstration and learning purposes.
-* All file paths in the script are relative, so the project runs immediately after setting up the dataset.
-* The model is simple but illustrates how image classification can be applied to practical problems like recycling automation.
 
