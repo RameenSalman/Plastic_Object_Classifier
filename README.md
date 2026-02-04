@@ -36,7 +36,7 @@ This workflow mimics a real-world sorting system, showing how machine learning c
 
 ## Dataset Download
 
-The dataset is **hosted externally** due to file size. Download it from Google Drive:
+Download the dataset from Google Drive:
 
 [Download Dataset](https://drive.google.com/drive/folders/16ubaEOjQUHwLbgHZBgxp8vp8o8jJJ3MB?usp=sharing)
 
